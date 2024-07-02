@@ -46,7 +46,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-start gap-4 pl-4 my-4">
+          <div className="flex items-start gap-4 my-4">
             <Image
               src={"/assets/images/cheatavatar1.svg"}
               alt="img"
@@ -82,7 +82,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-end pr-4">
+          <div className="flex flex-col items-end">
             <div className="bg-[#007AFF] rounded-[6px] px-[8px] py-[4px] flex  relative">
               <Image
                 src={"/assets/images/chateIcon.svg"}
@@ -101,7 +101,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-start  pl-4 my-4">
+          <div className="flex items-start my-4">
             <div className="flex flex-col gap-3">
               <div className="flex items-start gap-4">
                 <Image
@@ -182,7 +182,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-end pr-4">
+          <div className="flex flex-col items-end">
             <div className="bg-[#007AFF] rounded-[6px] px-[8px] py-[4px] flex  relative">
               <Image
                 src={"/assets/images/chateIcon.svg"}
