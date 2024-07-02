@@ -66,14 +66,18 @@ const CheatBanner = () => {
                 <span className="text-[#2C2C2E] font-semibold text-sm">
                   Jav
                 </span>
-                <span className="text-xs text-brand-darkGray">Engineering</span>
+                <span className="text-xs text-brand-darkGray whitespace-nowrap">
+                  Engineering
+                </span>
               </div>
               <div className="flex items-center gap-[4px]">
-                <span className="text-sm text-[#2C2C2E] ">
+                <span className="text-sm text-[#2C2C2E] pr-[16px] sm:pr-0">
                   I’m down! Any ideas??
                 </span>
                 <div className="flex items-center justify-end gap-[4px] mt-[21px]">
-                  <span className="text-xs text-brand-darkGray">11:35 AM</span>
+                  <span className="text-xs text-brand-darkGray whitespace-nowrap">
+                    11:35 AM
+                  </span>
                 </div>
               </div>
             </div>
@@ -97,7 +101,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-start  pl-4 mt-4">
+          <div className="flex items-start  pl-4 my-4">
             <div className="flex flex-col gap-3">
               <div className="flex items-start gap-4">
                 <Image
@@ -119,14 +123,16 @@ const CheatBanner = () => {
                     <span className="text-[#2C2C2E] font-semibold text-sm">
                       Aubrey
                     </span>
-                    <span className="text-xs text-brand-darkGray">Product</span>
+                    <span className="text-xs text-brand-darkGray whitespace-nowrap">
+                      Product
+                    </span>
                   </div>
                   <div className="flex items-center gap-[4px]">
-                    <span className="text-sm text-[#2C2C2E] ">
+                    <span className="text-sm text-[#2C2C2E] pr-[16px] sm:pr-0">
                       I was thinking the cafe downtown
                     </span>
                     <div className="flex items-center justify-end gap-[4px] mt-[21px]">
-                      <span className="text-xs text-brand-darkGray">
+                      <span className="text-xs text-brand-darkGray whitespace-nowrap">
                         11:45 AM
                       </span>
                     </div>
@@ -153,10 +159,12 @@ const CheatBanner = () => {
                     <span className="text-[#2C2C2E] font-semibold text-sm">
                       Aubrey
                     </span>
-                    <span className="text-xs text-brand-darkGray">Product</span>
+                    <span className="text-xs text-brand-darkGray whitespace-nowrap">
+                      Product
+                    </span>
                   </div>
                   <div className="flex items-center gap-[4px]">
-                    <span className="text-sm text-[#2C2C2E] ">
+                    <span className="text-sm text-[#2C2C2E] pr-[16px] sm:pr-0">
                       But limited vegan options{" "}
                       <Link href="#" className="text-[#007AFF]">
                         {" "}
@@ -165,7 +173,7 @@ const CheatBanner = () => {
                       !
                     </span>
                     <div className="flex items-center justify-end gap-[4px] mt-[21px]">
-                      <span className="text-xs text-brand-darkGray">
+                      <span className="text-xs text-brand-darkGray whitespace-nowrap">
                         11:46 AM
                       </span>
                     </div>
@@ -191,7 +199,7 @@ const CheatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-start  pl-4 mt-4">
+          {/* <div className="flex items-start  pl-4 my-4">
             <div className="flex flex-col gap-3">
               <div className="flex items-start gap-4">
                 <Image
@@ -213,17 +221,17 @@ const CheatBanner = () => {
                     <span className="text-[#2C2C2E] font-semibold text-sm">
                       Janet
                     </span>
-                    <span className="text-xs text-brand-darkGray">
+                    <span className="text-xs text-brand-darkGray whitespace-nowrap">
                       Engineering
                     </span>
                   </div>
                   <div className="flex items-center gap-[4px]">
-                    <span className="text-sm text-[#2C2C2E] w-full max-w-[248px]">
+                    <span className="text-sm text-[#2C2C2E] pr-[16px] sm:pr-0w-full max-w-[80%] ">
                       That works- I was actually planning to get a smoothie
                       anyways 👍
                     </span>
-                    <div className="flex items-center justify-end gap-[4px] mt-[21px]">
-                      <span className="text-xs text-brand-darkGray">
+                    <div className="flex items-center justify-end gap-[4px] mt-[21px] ml-auto">
+                      <span className="text-xs text-brand-darkGray whitespace-nowrap">
                         12:03 PM
                       </span>
                     </div>
@@ -250,14 +258,14 @@ const CheatBanner = () => {
                     <span className="text-[#2C2C2E] font-semibold text-sm">
                       Janet
                     </span>
-                    <span className="text-xs text-brand-darkGray">Product</span>
+                    <span className="text-xs text-brand-darkGray whitespace-nowrap">Product</span>
                   </div>
                   <div className="flex items-center gap-[4px]">
-                    <span className="text-sm text-[#2C2C2E] ">
+                    <span className="text-sm text-[#2C2C2E] pr-[16px] sm:pr-0">
                       On for 12:30 PM then ?
                     </span>
                     <div className="flex items-center justify-end gap-[4px] mt-[21px]">
-                      <span className="text-xs text-brand-darkGray">
+                      <span className="text-xs text-brand-darkGray whitespace-nowrap">
                         11:46 AM
                       </span>
                     </div>
@@ -272,7 +280,7 @@ const CheatBanner = () => {
             <div className="flex items-center justify-end gap-[4px] mt-[21px]">
               <span className="text-xs text-white">11:31 AM</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
